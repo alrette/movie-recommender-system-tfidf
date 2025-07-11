@@ -1,7 +1,6 @@
 # 🎬 Movies Recommender System
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-informational?logo=pandas)](https://pandas.pydata.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikit-learn)](https://scikit-learn.org/)
 [![TMDB](https://img.shields.io/badge/Data-TMDB-red?logo=tmdb)](https://www.themoviedb.org/)
