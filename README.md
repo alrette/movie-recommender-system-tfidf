@@ -13,7 +13,7 @@ Welcome to the **Movies Recommender System**, a project designed to suggest movi
 
 ## 📁 Dataset
 
-This project uses a dataset from Kaggle [text](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) 
+This project uses a dataset from Kaggle [Kaggle 💙](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) 
 
 | File Name           | Description |
 |---------------------|-------------|
@@ -79,4 +79,4 @@ jupyter notebook Movie_Recommender_System.ipynb
 
 # Acknowledgements
 This dataset is an ensemble of data collected from TMDB and GroupLens.
-The Movie Details, Credits and Keywords have been collected from the TMDB Open API. This product uses the TMDb API but is not endorsed or certified by TMDb. Their API also provides access to data on many additional movies, actors and actresses, crew members, and TV shows. You can try it for yourself here >> [text](https://developer.themoviedb.org/docs/getting-started)
+The Movie Details, Credits and Keywords have been collected from the TMDB Open API. This product uses the TMDb API but is not endorsed or certified by TMDb. Their API also provides access to data on many additional movies, actors and actresses, crew members, and TV shows. You can try it for yourself here >> [TMBD API](https://developer.themoviedb.org/docs/getting-started)
