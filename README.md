@@ -74,7 +74,7 @@ cd movie-recommender
 pip install -r requirements.txt
 
 # Run the notebook
-jupyter notebook Movie_Recommender_System.ipynb
+jupyter notebook RecommenderSystem.ipynb
 ```
 
 # Acknowledgements
