@@ -28,13 +28,13 @@ This project uses a dataset from Kaggle [Kaggle 💙](https://www.kaggle.com/dat
 ## 🛠️ Building Approach
 
 ### 🔹 Content-Based Filtering
-We generate a **"soup"** feature by combining metadata like genres, director, keywords, and cast. This textual data is vectorized using **TF-IDF**, and we compute **cosine similarity** to recommend similar movies.
+We generate a **"soup"** feature by combining metadata like genres, director, keywords, and cast. This textual data is vectorized using **TF-IDF**, and we compute **cosine similarity** to recommend similar movies. This addresses the **cold-start problem** where new users or movies lack sufficient data.
 
 - 💡 Libraries: `TfidfVectorizer`, `CosineSimilarity`, `Pandas`, `Numpy`
 - 🧠 No user data needed — purely based on movie features
 
 ### 🔸 Hybrid Filtering (Content + Collaborative)
-To create a more **personalized experience**, we blend content-based methods with **collaborative filtering** using user ratings. This addresses the **cold-start problem** where new users or movies lack sufficient data.
+To create a more **personalized experience**, we blend content-based methods with **collaborative filtering** using user ratings. 
 
 - 📊 Ratings from `ratings_small.csv` form the user-movie interaction matrix
 - 📚 Matrix Factorization / Neighborhood-based algorithms can be used
